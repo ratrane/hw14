@@ -8,16 +8,17 @@
 
 int main()
 {
+    //Enter String Var
     std::cout << "Enter text pls:";
     std::string Text;
     std::getline(std::cin, Text);
     
-    
 
+    //Display Parameters of Var
     std::cout <<"\n" << "Variable :" <<Text;
     std::cout << "\n" << "Length :" << Text.length();
-    std::cout << "\n" << "1st Symbol :" << Text[0];
-    std::cout << "\n" << "Last Symbol :" << Text[Text.size()-1];
+    std::cout << "\n" << "1st Cymbol :" << Text[0];
+    std::cout << "\n" << "Last Cymbol :" << Text[Text.size()-1];
 
 }
 
